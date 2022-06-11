@@ -17,8 +17,11 @@ play2.sh is a little more fancy than play.sh:
 
 Usage: ./play2.sh Paramter1=[PASSWORD or --nopasswd] Parameter2 Parameter3 [Option]
 Options:
+
 --nofreb      Do not enable random fake "Rebuilding Root File System" progress display, the false progress display can be obtained by manually sending SIGUSR1.
+
 --nopasswd    This Patamter Must at Paramter1,  "PASSWORD" as a "EXIT_KEYWORD" Do not enable "PASSWORD" and without trap SIGINT&SIGTSTP. Default parameter if "PASSWORD" not exist.
+
 --help        List this help.
 
 Note: Parameter 2 and Parameter 3 control the frequency of false progress bars. Parameter 2 is the lower limit. Parameter 3 is the upper limit. They must be set together. They are numbers and the unit is seconds. The default value is 30 60.
