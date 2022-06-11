@@ -14,6 +14,7 @@ play2.sh is a little more fancy than play.sh:
 4. also have displays "grub rescue>" and the prompt "kernel panic - not syncing: fatal exception" will be prompted after random input and Enter.
 
 ./play2.sh
+
 Usage: ./play2.sh Paramter1=[PASSWORD or --nopasswd] Parameter2 Parameter3 [Option]
 Options:
 --nofreb      Do not enable random fake "Rebuilding Root File System" progress display, the false progress display can be obtained by manually sending SIGUSR1.
