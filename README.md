@@ -12,6 +12,7 @@ play2.sh is a little more fancy than play.sh:
 2. Intercept SIGINT and SIGTSTP signal (also CTRL+C and CTRL+Z), while input "EXIT PASSWORD" behind "grub rescue>", script will exit.
 3. A fake "Rebuilding Root File System progress" display, it set to appear randomly by default or not. and you can input 'fsck.grub' behind the "grub rescue>" to launch.
 4. also have displays "grub rescue>" and the prompt "kernel panic - not syncing: fatal exception" will be prompted after random input and Enter.
+5. sig_test.sh controls the occurrence time of the fake "Rebuilding Root File System progress" display. play2.sh calls, please ensure that they are in the same directory.
 
 ./play2.sh
 
